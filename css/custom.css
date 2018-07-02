@@ -18,24 +18,8 @@ select {
 }
 
 .btn {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 40px;
-  padding: 0 13px;
   font-family: 'lato-light', Arial, serif;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  vertical-align: middle;
-  transition: all .2s;
+ 
 }
 
 .btn_red {
@@ -79,4 +63,13 @@ select {
   font-size: 34px;
   letter-spacing: 3.2px;
   color: #1b586d;
+}
+
+.subscribe__btn {
+    min-width: 150px;
+    padding: 0 40px 4px;
+    background: #1b586d;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    transition: background .2s;
 }
