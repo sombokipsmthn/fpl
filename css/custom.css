@@ -44,6 +44,11 @@ select {
   opacity: .7;
 }
 
+.btn_viol {
+    border-color: #e3af56;
+    color: #e3af56;
+}
+
 .design__wrap {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -74,4 +79,38 @@ select {
     border-radius: 0 3px 3px 0;
     color: #fff;
     transition: background .2s;
+}
+
+.main__title {
+  max-width: 800px;
+  margin-bottom: 42px;
+  font-size: 62px;
+  line-height: 1.24;
+  text-transform: uppercase;
+  letter-spacing: 16.6px;
+}
+
+.main_bot_head {
+  margin-bottom: 20px;
+  opacity: .6;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.main_bot_text, .main_bot_content {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.main_bot_text {
+  letter-spacing: 4.8px;
+font-size: px;
+}
+
+.section__content {
+  max-width: 1120px;
+  margin: 40px auto 0;
+  opacity: .7;
+  font-size: 35px;
+  line-height: 1.48;
 }
