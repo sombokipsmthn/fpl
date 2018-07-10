@@ -22,7 +22,7 @@ select {
  
 }
 .btn:hover {
-  background: #00475c;
+  background: #e3af56;
   color: #FFF;
 }
 
@@ -52,6 +52,7 @@ select {
     border-color: #e3af56;
     color: #e3af56;
 }
+
 
 .design__wrap {
   display: -webkit-flex;
